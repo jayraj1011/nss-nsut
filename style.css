@@ -141,7 +141,7 @@
 }
 /* ABOUT SECTION */
 .about{
-    height: 200px;
+    min-height: 200px;
     padding: 25px;
     margin: 1.7rem;
     background-color: blanchedalmond;
@@ -149,11 +149,14 @@
 .about-title{
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 15px; 
 }
 .about-content{
     border-top: 2px solid #0f1111;
-    padding-top: 10px;
+    padding-top: 15px; 
     font-size: 1.1rem;
+    line-height: 1.6; 
+    text-align: justify;
 }
 
 /* FOOTER */
@@ -262,6 +265,19 @@ ul a{
     .herosection{
         height: 250px;
     }
+    .about{
+        margin: 1.5rem;
+        padding: 20px;
+    }
+    
+    .about-title{
+        font-size: 1.4rem;
+    }
+    
+    .about-content{
+        font-size: 1.05rem;
+        padding-top: 12px;
+    }
 }
 
 /* Small screens (mobile phones) */
@@ -313,6 +329,22 @@ ul a{
         display: block;
         margin: 5px 0;
     }
+    .about{
+        margin: 1rem;
+        padding: 15px;
+        min-height: auto;
+    }
+    
+    .about-title{
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    
+    .about-content{
+        font-size: 1rem;
+        padding-top: 10px;
+        line-height: 1.5;
+    }
 }
 
 /* Extra small screens */
@@ -357,6 +389,21 @@ ul a{
         grid-template-columns: 1fr;
         gap: 10px;
     }
+    .about{
+        margin: 0.8rem;
+        padding: 12px;
+    }
+    
+    .about-title{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .about-content{
+        font-size: 0.95rem;
+        padding-top: 8px;
+        text-align: left; 
+    }
 }
 
 /* Very small screens */
@@ -380,5 +427,19 @@ ul a{
     
     .panel-ops{
         margin-top: 10px;
+    }
+    .about{
+        margin: 0.5rem;
+        padding: 10px;
+    }
+    
+    .about-title{
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+    
+    .about-content{
+        font-size: 0.9rem;
+        padding-top: 6px;
     }
 }
